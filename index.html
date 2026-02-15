@@ -41,7 +41,8 @@
 					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About Me</span></a></li>
 					<li class="nav-item"><a href="#resume-section" class="nav-link"><span>Education</span></a></li>
 					<li class="nav-item"><a href="#skills-section" class="nav-link"><span>My Skills</span></a></li>
-					<li class="nav-item"><a href="#projects-section" class="nav-link"><span>Achievements</span></a></li>
+					<li class="nav-item"><a href="#projects-section" class="nav-link"><span>Achievements and
+								Partcipations </span></a></li>
 					<li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Projects</span></a></li>
 					<li class="nav-item"><a href="#services-section" class="nav-link"><span>Others Work</span></a></li>
 					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact Me</span></a></li>
@@ -143,7 +144,8 @@
 							</p>
 							<p>
 								<!-- Make sure the PDF file path is correct -->
-								<a href="https://docs.google.com/document/d/1YxKCZ8CWDhDVR61m4kD_e7qriwVv_V5tiO6u9AnFTmA/edit?usp=sharing" download class="btn btn-primary py-3 px-3">Download My CV</a>
+								<a href="https://docs.google.com/document/d/1YxKCZ8CWDhDVR61m4kD_e7qriwVv_V5tiO6u9AnFTmA/edit?usp=sharing"
+									download class="btn btn-primary py-3 px-3">Download My CV</a>
 							</p>
 						</div>
 					</div>
@@ -190,7 +192,7 @@
 						<span class="date">2007-2013</span>
 						<h2>Primary School</h2>
 						<span class="position">
-							<h5>Sagoriya Government Primary School</h5>
+							<h5>Sagpriya Government Primary School</h5>
 						</span>
 						<p class="mt-4">My Root</p>
 					</div>
@@ -222,6 +224,7 @@
 			</div>
 		</div>
 	</section>
+
 	<section class="ftco-section" id="skills-section">
 		<div class="container">
 			<div class="row justify-content-center pb-5">
@@ -308,8 +311,8 @@
 		<div class="container">
 			<div class="row justify-content-center pb-5">
 				<div class="col-md-12 heading-section text-center ftco-animate">
-					<h1 class="big big-2">Achievements</h1>
-					<h2 class="mb-4">Achievements</h2>
+					<h1 class="big big-2">Achievements and Partcipations</h1>
+					<h2 class="mb-4">Achievements and Partcipations</h2>
 					<p>Focused and passionate about Computer Science, I have developed strong foundations in
 						programming, data structures, and problem solving. Through academic projects, coding contests,
 						and self driven learning, I continuously sharpen my analytical thinking and technical skills. My
@@ -322,21 +325,27 @@
 			<div class="gallery-grid">
 				<div class="gallery-item">
 					<img src="images/BCS Certificate.png" alt="Achievement 1" onclick="openModal(this.src)">
+					<h5 class="achievement-title">BCS ICT Fest 2025 </h5>
 				</div>
 				<div class="gallery-item">
 					<img src="images/Overleaf.png" alt="Achievement 2" onclick="openModal(this.src)">
+					<h5 class="achievement-title">Hands on Overleaf and Latex</h5>
 				</div>
 				<div class="gallery-item">
 					<img src="images/Cyber programme.jpg" alt="Achievement 3" onclick="openModal(this.src)">
+					<h5 class="achievement-title">Workshop</h5>
 				</div>
 				<div class="gallery-item">
 					<img src="images/Cyber Security .jpg" alt="Achievement 4" onclick="openModal(this.src)">
+					<h5 class="achievement-title">Cyber Security Club Member</h5>
 				</div>
 				<div class="gallery-item">
 					<img src="images/Spoken.png" alt="Achievement 4" onclick="openModal(this.src)">
+					<h5 class="achievement-title">Spoken English Course</h5>
 				</div>
 				<div class="gallery-item">
 					<img src="images/Leadership.png" alt="Achievement 4" onclick="openModal(this.src)">
+					<h5 class="achievement-title">Personal Leadership Course</h5>
 				</div>
 				<!-- Add more images here -->
 			</div>
@@ -357,6 +366,10 @@
 			gap: 15px;
 		}
 
+		.gallery-item {
+			text-align: center;
+		}
+
 		.gallery-item img {
 			width: 100%;
 			height: auto;
@@ -369,6 +382,13 @@
 			transform: scale(1.05);
 		}
 
+		.achievement-title {
+			margin-top: 10px;
+			font-size: 16px;
+			font-weight: 600;
+			color: #ffffffb6;
+		}
+
 		/* Modal styling */
 		.modal {
 			display: none;
@@ -379,7 +399,7 @@
 			top: 0;
 			width: 100%;
 			height: 100%;
-			background-color: rgba(0, 0, 0, 0.9);
+			background-color: rgba(0, 0, 0, 0.653);
 			overflow: auto;
 		}
 
@@ -394,7 +414,7 @@
 			position: absolute;
 			top: 30px;
 			right: 35px;
-			color: #fff;
+			color: #ffffff;
 			font-size: 40px;
 			font-weight: bold;
 			cursor: pointer;
@@ -402,10 +422,10 @@
 		}
 
 		.close:hover {
-			color: #bbb;
+			color: #f80000;
 		}
 
-		/* Responsive: 2 per row on tablet, 1 per row on mobile */
+		/* Responsive */
 		@media (max-width: 992px) {
 			.gallery-grid {
 				grid-template-columns: repeat(2, 1fr);
@@ -492,7 +512,7 @@
 		</div>
 	</section>
 
-<section class="ftco-section" id="services-section">
+	<section class="ftco-section" id="services-section">
 		<div class="container">
 			<div class="row justify-content-center py-5 mt-5">
 				<div class="col-md-12 heading-section text-center ftco-animate">
@@ -504,7 +524,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-4 text-center d-flex ftco-animate">
-					<a href="#" class="services-1">
+					<a href="https://cybersecurity.uap-bd.edu/team.php" class="services-1">
 						<span class="icon">
 							<i class="flaticon-analysis"></i>
 						</span>
@@ -514,7 +534,8 @@
 					</a>
 				</div>
 				<div class="col-md-4 text-center d-flex ftco-animate">
-					<a href="#" class="services-1">
+					<a href="https://www.canva.com/design/DAG2PlFmdOk/X6yW3XfN2MZ7IMu9IurriA/edit?utm_content=DAG2PlFmdOk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+						class="services-1">
 						<span class="icon">
 							<i class="flaticon-flasks"></i>
 						</span>
@@ -524,7 +545,7 @@
 					</a>
 				</div>
 				<div class="col-md-4 text-center d-flex ftco-animate">
-					<a href="#" class="services-1">
+					<a href="https://sowr0v.github.io/110/" class="services-1">
 						<span class="icon">
 							<i class="flaticon-ideas"></i>
 						</span>
@@ -545,7 +566,7 @@
 					</a>
 				</div>
 				<div class="col-md-4 text-center d-flex ftco-animate">
-					<a href="#" class="services-1">
+					<a href="https://codeforces.com/profile/mijanur.rahman" class="services-1">
 						<span class="icon">
 							<i class="flaticon-flasks"></i>
 						</span>
@@ -560,7 +581,7 @@
 							<i class="flaticon-ideas"></i>
 						</span>
 						<div class="desc">
-							<h3 class="mb-5">Software Design</h3>
+							<h3 class="mb-5">Leadership</h3>
 						</div>
 					</a>
 				</div>
@@ -607,7 +628,7 @@
 		</div>
 	</section>
 
-	<section class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg-3.jpg)">
+	<section class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg-last.jpg)">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-7 ftco-animate text-center">
@@ -616,7 +637,8 @@
 						skills in C, Java, HTML, CSS, JavaScript, and problem solving. Whether it’s software
 						development, web projects, or innovative solutions, I’m ready to contribute, learn, and deliver
 						high-quality results efficiently.</p>
-					<p class="mb-0"><a href="#" class="btn btn-primary py-3 px-5">If you are satisfied with my work, please contact me</a></p>
+					<p class="mb-0"><a href="#" class="btn btn-primary py-3 px-5">If you are satisfied with my work,
+							please contact me</a></p>
 				</div>
 			</div>
 		</div>
@@ -657,7 +679,7 @@
 							<span class="icon-phone2"></span>
 						</div>
 						<h3 class="mb-4">Contact Number</h3>
-						<p><a href="tel://01635070125">01635070125</a></p>
+						<p><a href="tel://1234567920">01635070125</a></p>
 					</div>
 				</div>
 				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -666,7 +688,7 @@
 							<span class="icon-paper-plane"></span>
 						</div>
 						<h3 class="mb-4">Email Address</h3>
-						<p><a href="mailto:info@yoursite.com">23201110@uap-bd.edu</a></p>
+						<p><a href="mailto:info@yoursite.com">23201110@uap-bd</a></p>
 					</div>
 				</div>
 				<div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -682,56 +704,88 @@
 			</div>
 
 			<div class="row no-gutters block-9">
+
+				<!-- FORM SIDE -->
 				<div class="col-md-6 order-md-last d-flex">
-					<form id="contactForm" class="bg-light p-4 p-md-5 contact-form">
-						<div class="form-group">
-							<input type="text" name="user_name" class="form-control" placeholder="Your Name" required>
+					<form id="contact-form" class="bg-light p-4 p-md-5 contact-form"
+						action="https://formspree.io/f/mzdarkww" method="POST">
+
+						<div class="form-row">
+
+							<div class="form-group col-md-6">
+								<label for="name">Name</label>
+								<input type="text" id="name" name="name" class="form-control"
+									placeholder="Your full name" required>
+							</div>
+
+							<div class="form-group col-md-6">
+								<label for="email">Email</label>
+								<input type="email" id="email" name="email" class="form-control"
+									placeholder="your.email@example.com" required>
+							</div>
+
 						</div>
+
 						<div class="form-group">
-							<input type="email" name="user_email" class="form-control" placeholder="Your Email"
-								required>
+							<label for="subject">Subject</label>
+							<input type="text" id="subject" name="subject" class="form-control"
+								placeholder="Type your Subject" required>
 						</div>
+
 						<div class="form-group">
-							<input type="text" name="subject" class="form-control" placeholder="Subject" required>
+							<label for="message">Message</label>
+							<textarea id="message" name="message" rows="6" class="form-control"
+								placeholder="Write anything..." required></textarea>
 						</div>
-						<div class="form-group">
-							<textarea name="message" cols="30" rows="7" class="form-control"
-								placeholder="Write your Message" required></textarea>
-						</div>
-						<div class="form-group">
-							<input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
-						</div>
+
+						<button type="submit" class="btn btn-primary py-3 px-5">
+							Send Message
+						</button>
+
+						<p id="form-status" style="margin-top:15px; font-weight:bold;"></p>
+
 					</form>
 				</div>
 
-				<!-- EmailJS SDK -->
-				<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-				<script>
-					// Initialize EmailJS
-					(function () {
-						emailjs.init("YOUR_EMAILJS_USER_ID"); // Replace with your EmailJS User ID
-					})();
 
-					// Send form to email
-					document.getElementById('contactForm').addEventListener('submit', function (event) {
-						event.preventDefault(); // prevent default form submission
-
-						emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
-							.then(function () {
-								alert('Message sent successfully! ✅'); // success alert
-							}, function (error) {
-								alert('Oops! Something went wrong... ❌', error);
-							});
-
-						this.reset(); // reset form
-					});
-				</script>
-
-
+				<!-- IMAGE SIDE -->
 				<div class="col-md-6 d-flex">
-					<div class="img" style="background-image: url(images/Pic-1.jpeg);"></div>
+					<div class="img" style="background-image: url(images/Pic-1.jpeg); width:100%;"></div>
 				</div>
+
 			</div>
+
+			<script>
+				const form = document.getElementById("contact-form");
+				const status = document.getElementById("form-status");
+
+				async function handleSubmit(event) {
+					event.preventDefault();
+					const data = new FormData(event.target);
+					status.innerHTML = "Sending...";
+
+					fetch(event.target.action, {
+						method: form.method,
+						body: data,
+						headers: { 'Accept': 'application/json' }
+					}).then(response => {
+						if (response.ok) {
+							status.style.color = "#2ecc71";
+							status.innerHTML = "Thanks! Your message has been sent.";
+							form.reset();
+						} else {
+							status.style.color = "#e74c3c";
+							status.innerHTML = "Oops! There was a problem. Please check your details.";
+						}
+					}).catch(() => {
+						status.style.color = "#e74c3c";
+						status.innerHTML = "Error! Could not connect to the server.";
+					});
+				}
+
+				form.addEventListener("submit", handleSubmit);
+			</script>
+
 		</div>
 	</section>
 
@@ -743,7 +797,7 @@
 			<div id="chatToggleWrapper" onclick="toggleChat()">
 
 				<div id="chatLabel">
-					<h6>AI Assistant!</h6>
+					<h7>AI Assistant!</h7>
 				</div>
 			</div>
 
@@ -981,6 +1035,8 @@
 			if (msg.includes("favorite platform")) return "He uses Codeforces, LeetCode, and GitHub for coding practice.";
 			if (msg.includes("favorite programming language")) return "His favorite programming language is C for problem solving.";
 			if (msg.includes("web development")) return "He enjoys creating responsive websites using HTML, CSS, and JavaScript.";
+			if (msg.includes("Hi")) return "How are you?";
+			if (msg.includes("Hello")) return "Hi";
 			return "Sorry,My AI is under working.Write another message ";
 		}
 
@@ -1004,6 +1060,7 @@
 
 	<footer class="ftco-footer ftco-section">
 		<div class="ftco-footer-widget mb-4 text-center">
+
 			<ul class="ftco-footer-social list-unstyled d-flex justify-content-center mt-3">
 				<li class="ftco-animate mx-2"><a href="https://www.facebook.com/share/17rEuHXcgA/"><span
 							class="icon-facebook"></span></a></li>
